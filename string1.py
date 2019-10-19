@@ -1,7 +1,6 @@
 kelime=str(input("Stringi giriniz:"))
-liste=list(kelime)
 
-for i in range(len(liste)-1):
-    print(liste[i],end=".")
+for i in range(len(kelime)-1):
+    print(kelime[i],end=".")
 
-print(liste[len(liste)-1])
+print(kelime[len(kelime)-1])
