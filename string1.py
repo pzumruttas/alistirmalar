@@ -1,6 +1,5 @@
-kelime=str(input("Stringi giriniz:"))
+kelime=input("Stringi giriniz:")
 
-for i in range(len(kelime)-1):
+for i in range(len(kelime)):
     print(kelime[i],end=".")
 
-print(kelime[len(kelime)-1])
